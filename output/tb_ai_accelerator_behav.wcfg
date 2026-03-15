@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_ai_accelerator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_ai_accelerator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="475.000 ns"></ZoomEndTime>
+      <Cursor1Time time="475.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/tb_ai_accelerator/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/system_start" type="logic">
+      <obj_property name="ElementShortName">system_start</obj_property>
+      <obj_property name="ObjectShortName">system_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/sensor_pixel_in" type="array">
+      <obj_property name="ElementShortName">sensor_pixel_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_pixel_in[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/target_pred_x" type="array">
+      <obj_property name="ElementShortName">target_pred_x[15:0]</obj_property>
+      <obj_property name="ObjectShortName">target_pred_x[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/target_pred_y" type="array">
+      <obj_property name="ElementShortName">target_pred_y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">target_pred_y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/target_pred_z" type="array">
+      <obj_property name="ElementShortName">target_pred_z[15:0]</obj_property>
+      <obj_property name="ObjectShortName">target_pred_z[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/intercept_ready" type="logic">
+      <obj_property name="ElementShortName">intercept_ready</obj_property>
+      <obj_property name="ObjectShortName">intercept_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/N" type="array">
+      <obj_property name="ElementShortName">N[31:0]</obj_property>
+      <obj_property name="ObjectShortName">N[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/ACC_WIDTH" type="array">
+      <obj_property name="ElementShortName">ACC_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ACC_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_ai_accelerator/COORD_WIDTH" type="array">
+      <obj_property name="ElementShortName">COORD_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COORD_WIDTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
